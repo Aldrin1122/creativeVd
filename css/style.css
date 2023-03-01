@@ -497,9 +497,7 @@ nav ul li a:hover{
     gap: 10rem;
 }
 
-.services__text{
-    
-}
+
 
 
 .services__text h2{
@@ -558,9 +556,7 @@ nav ul li a:hover{
     gap: 10rem;
 }
 
-.grap__text{
-    
-}
+
 
 .grap__text h2{
     color: var(--primary);
@@ -606,9 +602,7 @@ nav ul li a:hover{
     gap: 10rem;
 }
 
-.social__text{
-    
-}
+
 
 
 .social__text h2{
@@ -831,4 +825,51 @@ nav ul li a:hover{
     background-color: var(--black);
     color: var(--white);
 }
+
+/*--------------CONTACT------------------*/
+
+.contactlast{
+    background-color: var(--black);
+    padding: 6rem 0;
+}
+
+.contactlast__wrapper{
+    display: grid;
+    color: var(--white);
+    grid-template-columns: 1fr 1fr;
+    gap: 6rem;
+    
+
+}
+
+.info__contact{
+    display: flex;
+    gap: 3rem;
+}
+
+.info__sc li{
+    list-style: none;
+    padding-bottom: 1rem;
+}
+
+.info__sc li a{
+    color: var(--primary);
+    gap: 2rem;
+    font-size: 1.5rem;
+}
+
+.contactlast__title ul{
+    list-style: none;
+    display: flex;
+}
+
+.contactlast__title ul li a{
+    color: var(--white);
+    font-size: 1.5rem;
+}
+
+.bottom__sc ul{
+    gap: .7rem;
+}
+
 
