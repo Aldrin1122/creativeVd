@@ -872,4 +872,6 @@ nav ul li a:hover{
     gap: .7rem;
 }
 
-
+.box input{
+    width: 30rem;
+}
