@@ -732,6 +732,7 @@ nav ul li a:hover{
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 3rem;
+    padding-bottom: 6rem;
 }
 
 .concept h3{
@@ -749,7 +750,7 @@ nav ul li a:hover{
 }
 
 .updates__img1 img{
-    padding-top: 5rem;
+    padding-top: 1rem;
 }
 
 
@@ -782,9 +783,20 @@ nav ul li a:hover{
 }
 
 
-/*--------------Recent Post------------------*/
+/*--------------code------------------*/
 
+.updates__img2{
+    padding-top: 5rem;
+}
 
+.updates__img2 span{
+    background-color: rgba(128, 128, 128, 0.219);
+    display: block;
+    height: 0.2rem;
+    width: 100%;
+    margin-bottom: 3rem;
+    
+}
 
 .code h3{
     color: var(--primary);
@@ -799,3 +811,24 @@ nav ul li a:hover{
     color: var(--primary);
     text-decoration: none;
 }
+/*--------------tag------------------*/
+.tag__button{
+    margin-top: 9rem;
+}
+
+.tag__button a{
+    border: 1px solid var(--black);
+    text-decoration: none;
+    color: var(--black);
+    padding: .8rem 2rem;
+    display: inline-block;
+    border-radius: 3rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.tag__button a:nth-child(4){
+    background-color: var(--black);
+    color: var(--white);
+}
+
