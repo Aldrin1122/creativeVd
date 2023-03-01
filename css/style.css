@@ -830,7 +830,7 @@ nav ul li a:hover{
 
 .contactlast{
     background-color: var(--black);
-    padding: 6rem 0;
+    padding: 1rem 0;
 }
 
 .contactlast__wrapper{
@@ -838,8 +838,12 @@ nav ul li a:hover{
     color: var(--white);
     grid-template-columns: 1fr 1fr;
     gap: 6rem;
-    
+}
 
+.contactlast__title h2{
+    color: var(--primary);
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
 }
 
 .info__contact{
@@ -872,6 +876,39 @@ nav ul li a:hover{
     gap: .7rem;
 }
 
-.box input{
-    width: 30rem;
+.box textarea{
+    margin-bottom: 1rem;
+    margin-right: 5rem; 
 }
+
+.box textarea:nth-child(1){
+    margin-top: 6rem;
+}
+
+.box a{
+    text-decoration: none;
+    background-color: var(--primary);
+    color: var(--white);
+    padding: .5rem 1rem;
+    display: inline-block;
+    border-radius: 3rem;
+    text-transform: uppercase;
+    margin-left: 24rem;
+}
+
+.footer span{
+    background-color: rgba(128, 128, 128, 0.219);
+    display: block;
+    height: 0.2rem;
+    width: 100%;
+    margin-bottom: 3rem;
+}
+
+.contactlast span{
+    background-color: rgba(0, 0, 0, 0.219);
+    display: block;
+    height: 0.2rem;
+    width: 100%;
+    margin-bottom: 3rem;
+}
+
