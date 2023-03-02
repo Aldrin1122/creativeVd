@@ -208,17 +208,13 @@ nav ul li a:hover{
     }
 
     .banner__wrapper .banner__content h1{
-        font-size: 3rem;
+        font-size: 2.5rem;
         text-align: center;
     }
 
-
-    .banner__content a{
-        
-    }
-    
-
-}
+    .banner__wrapper .banner__content a{
+        margin-left: 8.5rem;
+    }}
 
 
 /*--------------BANNER END'S HERE------------------*/
@@ -318,7 +314,9 @@ nav ul li a:hover{
     }
 
     .about__content img{
-        width: 100%;
+        max-width: 400px;
+        padding-left: 3rem;
+        
     }
 
     .about__content h3{
@@ -370,10 +368,6 @@ nav ul li a:hover{
     margin-left: 1rem;
 }
 
-/* .latest__card h4,p,a{
-    margin: 1rem;
-} */
-
 .latest__card a{
     text-decoration: none;
     color: var(--primary);
@@ -385,18 +379,27 @@ nav ul li a:hover{
 }
 
 @media (max-width:768px){
+    .latest{
+        padding-top: 5rem;
+    }
+
     .card{
         grid-template-columns: 1fr;
         padding-left: 3rem;
-        padding-right: 1.8rem;
+
     }
 
     .latest__card{
-        max-width: 358px;
+        max-width: 350px;
     }
 
+    .latest__card img{
+        max-width: 350px;
+    }
+
+
     .latest__title{
-        padding-left: 3rem;
+        text-align: center;
     }
 
     .latest__title h2{
@@ -501,17 +504,16 @@ nav ul li a:hover{
         display: block;
         text-align: center;
     }
-    .footer__sc ul{
-        margin: 0 auto;
-    }
-}
 
+    .footer__sc ul{
+        justify-content: center;
+    }}
 /*--------------FOOTER END'S HERE------------------*/
 
 /*--------------ABOUT CSS START'S HERE------------------*/
 
 .aboutme{
-    padding: 10rem 0 6rem 0;
+    padding: 10rem 0 2rem 0;
 }
 
 .aboutme__wrapper{
@@ -559,6 +561,39 @@ nav ul li a:hover{
     color: var(--primary);
     font-size: 3rem;   
 }
+ .aboutme__wrapper img{
+    max-width: 566px;
+    max-height: 566px;
+ }
+
+ @media (max-width:768px){
+    .aboutme__wrapper{
+        display: block;
+    }
+
+    .aboutme__title{
+        text-align: center;
+    }
+    .aboutme__title h1{
+        font-size: 3.5rem;
+    }
+
+    .aboutme__sc ul{
+        justify-content: center;
+    }
+
+    .aboutme__wrapper img{
+        position: absolute;
+        top: 18rem;
+        right: 4.5rem;
+        max-width: 20rem;
+    }
+
+    .aboutme__text{
+        margin-top: 25rem;
+    }
+ }
+
 
 /*--------------ABOUT ME END'S HERE------------------*/
 
@@ -603,7 +638,25 @@ nav ul li a:hover{
     padding-bottom: 3rem;
 }
 
+@media (max-width:768px){
+    .project__wrapper{
+        display: block;
+    }
 
+    .card2{
+        display: block;
+    }
+
+    .card{
+        max-width: 350px;
+        justify-content: center;
+    }
+
+    .card2{
+        max-width: 350px;
+        
+    }
+}
 /*--------------PROJECT ME END'S HERE------------------*/
 /*-----------------SERVICES------------------*/
 /*-----------------web------------------*/
