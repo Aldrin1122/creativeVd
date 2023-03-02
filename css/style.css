@@ -48,6 +48,7 @@ body{
     padding: 1rem 0;
     position: fixed;
     width: 100%;
+    z-index: 999;
 }
 
 .header__wrapper{
@@ -585,7 +586,7 @@ nav ul li a:hover{
     .aboutme__wrapper img{
         position: absolute;
         top: 18rem;
-        right: 4.5rem;
+        right: 6rem;
         max-width: 20rem;
     }
 
@@ -650,11 +651,30 @@ nav ul li a:hover{
     .card{
         max-width: 350px;
         justify-content: center;
+        margin-left: 1.5rem;
     }
 
     .card2{
         max-width: 350px;
-        
+        margin-left: 3rem;
+    }
+
+    .card2 img{
+        max-width: 350px;
+    }
+
+    .card2 .latest__card2{
+        margin-bottom: 3rem;
+    }
+
+    .project__title h2{
+        font-size: 2rem;
+        margin-left: 3rem;
+    }
+
+    .project__title p{
+        margin-left: 3rem;
+        font-size: .8rem;
     }
 }
 /*--------------PROJECT ME END'S HERE------------------*/
@@ -662,7 +682,7 @@ nav ul li a:hover{
 /*-----------------web------------------*/
 
 .servicepage{
-    padding: 4rem 0 3rem 0;
+    padding: 10rem 0 3rem 0;
 }
 
 .servicepage__wrapper{
@@ -699,7 +719,7 @@ nav ul li a:hover{
 
 .price  p{
     font-size: 0.8rem;
-    padding-right: 15rem;
+    /* padding-right: 15rem; */
     font-style: italic;
 }
 
@@ -715,6 +735,48 @@ nav ul li a:hover{
     top: 0;
     left: 0;
     opacity: 0.5;
+}
+
+@media (max-width:768px){
+    .servicepage__wrapper{
+        display: block;
+        
+    }
+
+    .services__text h2{
+        font-size: 2rem;
+        text-align: center;
+    }
+
+     .services__text p{
+        text-align: center;
+        text-align: justify;
+     }
+
+    .imageweb1{
+        max-width: 300px;
+    }
+
+    .imageweb2{
+        max-width: 300px;
+    }
+
+    .imageweb {
+        position: absolute;
+        top: 10rem;
+        left: 6rem;
+        max-width: 350px;
+    }
+
+    .services__text{
+        margin-top: 20rem;
+    } 
+
+    .price{
+        text-align: center;
+    }
+
+    
 }
 
 /*-----------------graphic------------------*/
@@ -759,10 +821,31 @@ nav ul li a:hover{
 
 .pricegrap  p{
     font-size: 0.8rem;
-    padding-right: 15rem;
     font-style: italic;
 }
 
+@media (max-width:768px){
+    .graphic__wrapper{
+        display: block;
+        align-items: center;
+    }
+
+    .graphic__wrapper .imagegrap img{
+        max-width: 300px;
+        margin-left: 5rem;
+        
+    }
+
+    .graphic__wrapper .grap .grap__text{
+        text-align: center;
+    }
+
+    .pricegrap{
+        text-align: center;
+    }
+
+
+}
 /*-----------------social------------------*/
 
 .social{
@@ -804,7 +887,6 @@ nav ul li a:hover{
 
 .pricesc  p{
     font-size: 0.8rem;
-    padding-right: 15rem;
     font-style: italic;
 }
 
@@ -821,6 +903,50 @@ nav ul li a:hover{
     left: 0;
     opacity: 0.5;
 }
+
+@media (max-width:768px){
+    .social__wrapper{
+        display: block;
+        
+    }
+
+    .social__text h2{
+        font-size: 2rem;
+        text-align: center;
+    }
+
+     .social__text p{
+        text-align: center;
+        text-align: justify;
+     }
+
+    .imagesc1{
+        max-width: 300px;
+    }
+
+    .imagesc2{
+        max-width: 300px;
+    }
+
+    .imagesc {
+        width: 3rem;
+        position: absolute;
+        top:138rem;
+        left: 6rem;
+        
+    }
+
+    .social__text{
+        margin-top: 20rem;
+    } 
+
+    .pricesc{
+        text-align: center;
+    }
+
+    
+}
+
 
 /*--------------SERVICES ME END'S HERE------------------*/
 
@@ -997,6 +1123,58 @@ nav ul li a:hover{
 .tag__button a:nth-child(4){
     background-color: var(--black);
     color: var(--white);
+}
+
+@media (max-width:768px){
+    .updates__wrapper{
+        display: block; 
+        margin-top: 2rem; 
+    }
+
+    .updates__img1 img{
+        max-width: 440px;
+    }
+
+    .design__wrapper{
+        display: block;
+    }
+
+    .categories{
+        position: absolute;
+        top: 90rem;
+        left: 6rem;
+    }
+
+    .updates__img2 img{
+        max-width: 440px;
+    }
+
+   .updates__title h2{
+        font-size: 2rem;
+   }
+    
+    .recent{
+        margin-top: 25rem;
+    }
+    .tag__button{
+        align-items: center;
+    }
+
+    .tag__button a{
+        align-items: center;
+    }
+
+
+    .recent h2{
+        text-align: center;
+    }
+
+    .cat h3{
+        text-align: center;
+    }
+
+
+
 }
 
 /*--------------CONTACT------------------*/
